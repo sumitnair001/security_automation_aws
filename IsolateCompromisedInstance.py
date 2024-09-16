@@ -14,10 +14,10 @@ def IsolateCompromisedInstance(event, context):
     instance_id = event['instanceId']
     
     # Define the isolated security group (replace with your actual security group ID)
-    isolated_security_group_id = 'sg-0521e703c00a4da49'  # Replace this with your isolated SG ID
+    isolated_security_group_id = 'xxxxxxxxxxx'  # Replace this with your isolated SG ID
     
     # Define the SNS Topic ARN (replace with your actual SNS Topic ARN)
-    sns_topic_arn = 'arn:aws:sns:us-east-1:563169521797:SecurityIncidentNotification'  # Replace with your SNS topic ARN
+    sns_topic_arn = 'arn:aws:sns:us-east-1:xxxxxxxxx:SecurityIncidentNotification'  # Replace with your SNS topic ARN
 
     try:
         # Log the instance isolation attempt
