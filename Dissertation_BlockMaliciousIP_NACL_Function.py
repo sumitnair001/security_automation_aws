@@ -18,7 +18,7 @@ def lambda_handler(event, context):
     existing_nacl_id = None
 
     # Define the SNS Topic ARN (replace with your actual SNS Topic ARN)
-    sns_topic_arn = 'arn:aws:sns:us-east-1:563169521797:SecurityIncidentNotification'  # Replace with your SNS topic ARN
+    sns_topic_arn = 'arn:aws:sns:us-east-1:xxxxxxxxx:SecurityIncidentNotification'  # Replace with your SNS topic ARN
 
     try:
         # Log the action
